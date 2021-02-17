@@ -20,4 +20,4 @@ fs.readdir('./commands/', (err, files) => {
   });
 })
 
-client.login(endless.token)
+client.login(config.token)
